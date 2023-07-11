@@ -13,7 +13,7 @@ extra_payment =input('Enter Extra Payment Dollar Amount: ')
 while principal > 0:
     if i >= int(extra_payment_start_month) and i <= int(extra_payment_end_month):
       principal = principal * (1+rate/12) - (payment + extra_payment)
-      total_paid = total_paid + (payment + extra_payment)
+      total_paid = total_paid + (payment + int(extra_payment))
     else:
       principal = principal * (1+rate/12) - payment
       total_paid = total_paid + payment
