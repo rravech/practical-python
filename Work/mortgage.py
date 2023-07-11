@@ -13,7 +13,7 @@ while principal > 0:
       total_paid = total_paid + (payment + 1000)
     else:
       principal = principal * (1+rate/12) - payment
-      total_paid = total_paid + payment
+      total_paid = total_paid + payment 
         
     i = i + 1
 
