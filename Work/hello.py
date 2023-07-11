@@ -1,3 +1,3 @@
-input('Enter msg:')
-print(input('Enter msg:'))
+msg = input('Enter msg:')
+print('Msg',msg)
 #print('hello world')
