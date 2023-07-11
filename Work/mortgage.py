@@ -18,4 +18,4 @@ while principal > 0:
   i = i + 1
 
 print('Total paid',total_paid)
-print('Number of months',total_paid/2684.11)
+print('Number of months',i)
