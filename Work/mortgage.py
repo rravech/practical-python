@@ -21,4 +21,4 @@ while principal > 0:
     i = i + 1
 
 print('Total paid',total_paid)
-#print('Number of months',i)
+print('Number of months',i)
