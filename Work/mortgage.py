@@ -7,8 +7,11 @@ payment = 2684.11
 total_paid = 0.0
 i = 1 #pmt number
 extra_payment_start_month = input('Enter Month/Payment Number to start extra payment:')
+print('extra_payment_start_month is', extra_payment_start_month)
 extra_payment_end_month = input('Enter Month Number/Payment Number to end extra payment:')
+print('extra_payment_end_month',extra_payment_end_month)
 extra_payment = input('Enter Extra Payment Dollar Amount:')
+print('extra_payment',extra_payment)
 
 while principal > 0:
     if i >= extra_payment_start_month and i <= extra_payment_end_month:
