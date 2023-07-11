@@ -14,11 +14,12 @@ while principal > 0:
     if i >= int(extra_payment_start_month) and i <= int(extra_payment_end_month):
       principal = principal * (1+rate/12) - (payment + int(extra_payment))
       total_paid = total_paid + (payment + int(extra_payment))
+      
     else:
       principal = principal * (1+rate/12) - payment
       total_paid = total_paid + payment
-        
+    print(i,total_paid,principal)  
     i = i + 1
 
-print('Total paid',total_paid)
-print('Number of months',i)
+#print('Total paid',total_paid)
+#print('Number of months',i)
