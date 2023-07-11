@@ -10,7 +10,7 @@ i = 1 #pmt number
 while principal > 0:
     if i < 13:
       principal = principal * (1+rate/12) - (payment + 1000)
-      total_paid = total_paid + (payment - 1000)
+      total_paid = total_paid + (payment + 1000)
     else:
       principal = principal * (1+rate/12) - payment
       total_paid = total_paid + payment
