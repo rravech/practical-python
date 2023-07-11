@@ -1,1 +1,3 @@
-print('hello world')
+input('Enter msg:')
+print(input('Enter msg:'))
+#print('hello world')
