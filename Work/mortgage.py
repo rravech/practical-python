@@ -18,7 +18,8 @@ while principal > 0:
     else:
       principal = principal * (1+rate/12) - payment
       total_paid = total_paid + payment
-    print(i,total_paid,principal)  
+   # print(i,total_paid,principal)  
+    f'{i} months to pay {total_paid} with remaining principal ${principal}'
     i = i + 1
 
 #print('Total paid',total_paid)
