@@ -1,7 +1,10 @@
 #Exercise wfiles
-f = open('portfolio.csv,'rt')
+f = open('portfolio.csv','rt')
 headers = next(f).split(',')
-headders
+headers
+total_cost = 0
 for line in f:
     row = line.split(',')
-    print(row[0])
+    total_cost = total_cost + (int(row[1]) * float(row[2]))
+    
+print(total_cost)
