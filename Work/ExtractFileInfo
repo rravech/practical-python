@@ -1,0 +1,7 @@
+#Exercise wfiles
+f = open('portfolio.csv,'rt')
+headers = next(f).split(',')
+headders
+for line in f:
+    row = line.split(',')
+    print(row[0])
